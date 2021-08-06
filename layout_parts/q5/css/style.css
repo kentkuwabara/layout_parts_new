@@ -9,6 +9,7 @@
   left: 200px;
   position: absolute;
   z-index: 0;
+  font-weight: bold;
 }
 .box_2{
   background-color: #7084de;
@@ -18,6 +19,7 @@
   top: 120px;
   left: 280px;
   z-index: 10;
+  font-weight: bold;
 }
 .box_3{
   background-color: #d0ecea;
@@ -27,6 +29,7 @@
   top: 200px;
   left: 360px;
   z-index: 20;
+  font-weight: bold;
 }
 .box_4{
   background-color: #8b7a5e;
@@ -36,6 +39,7 @@
   top: 280px;
   left: 280px;
   z-index: 30;
+  font-weight: bold;
 }
 .box_5{
   background-color: #9fd6d2;
@@ -45,6 +49,7 @@
   top: 360px;
   left: 200px;
   z-index: 40;
+  font-weight: bold;
 }
 .box_6{
   background-color: #fffee4;
@@ -54,6 +59,7 @@
   top: 280px;
   left: 120px;
   z-index: 50;
+  font-weight: bold;
 }
 .box_7{
   background-color: #deae70;
@@ -63,6 +69,7 @@
   top: 200px;
   left: 40px;
   z-index: 60;
+  font-weight: bold;
 }
 
 .box_8{
@@ -73,6 +80,7 @@
   top: 120px;
   left: 120px;
   z-index: 70;
+  font-weight: bold;
 }
 .box_9{
   background-color: #2b69a3;
@@ -82,6 +90,7 @@
   top: 0;
   left: 0;
   position: fixed;
+  font-weight: bold;
 }
 .background{
   width: 500px;
