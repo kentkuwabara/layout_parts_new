@@ -7,6 +7,7 @@
   table-layout: fixed;
   background-color: #eff3f4;
   padding: 20px;
+  box-sizing: border-box
 }
 .q4_content > div{
   display: table-cell;
@@ -16,11 +17,11 @@
 .q4_fixed_box{
   width: 100px;
   background-color:#b6d8eb;
-  padding: 20px;
+  padding: 20px 0;
 }
 .q4_variable_box{
   background-color: #e0abd9;
-  padding: 20px; 
+  padding: 20px 0;
 }
 .q4_fixed_box:first-child{
   background-color: #fdc8b8;
@@ -31,10 +32,10 @@
 .q4_fixed_box_under{
   width: 500px;
   background-color: #8fdcad;
-  padding: 20px;
+  padding: 20px 0;
 }
 .q4_variable_box_under{
   background-color: #ec8f9a;
-  padding: 20px;
+  padding: 20px 0;
 }
 /* 回答はここに書いてね */
