@@ -3,27 +3,23 @@
 /* 回答はここに書いてね */
 .q2_content{
   width: 940px;
-  padding: 20px;
   background-color: #eff3f4;
-  margin: 0 auto;
   box-sizing: border-box;
-}
-.q2_content_text{
+  word-break: break-all;
   font-size: 18px;
   line-height: 22px;
+  padding: 20px;
 }
+
 .q2_content_picture{
-margin: 0 20px  10px  0;
-float: left;
+  margin: 0  20px  10px  0;
+  float: left;
 }
 .q2_content_picture_right{
-  margin: 0 0 10px  20px;
+  margin: 0 0 10px 20px;
   float: right;
   }
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
+
+
 
 /* 回答はここに書いてね */
