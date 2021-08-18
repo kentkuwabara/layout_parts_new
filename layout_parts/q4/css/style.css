@@ -7,35 +7,39 @@
   table-layout: fixed;
   background-color: #eff3f4;
   padding: 20px;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .q4_content > div{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-.q4_fixed_box{
-  width: 100px;
+.q4box {
+  padding: 20px 0;
+}
+
+.q4box-fixed {
   background-color:#b6d8eb;
-  padding: 20px 0;
+  width: 100px;
 }
-.q4_variable_box{
+.q4box-variable {
   background-color: #e0abd9;
-  padding: 20px 0;
+  width:auto;
 }
-.q4_fixed_box:first-child{
+.q4box-fixed_left {
   background-color: #fdc8b8;
 }
-.q4_variable_box_under:first-child{
+.q4box-under_variable_left {
   background-color: #e5d32e;
+  width:auto
 }
-.q4_fixed_box_under{
+.q4box-under_fixed {
   width: 500px;
   background-color: #8fdcad;
-  padding: 20px 0;
 }
-.q4_variable_box_under{
+.q4box-under_variable {
   background-color: #ec8f9a;
-  padding: 20px 0;
+  width: auto;
 }
+
 /* 回答はここに書いてね */
