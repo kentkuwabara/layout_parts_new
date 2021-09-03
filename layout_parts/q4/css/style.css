@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4_content{
+.box {
+  padding: 20px 0 ;
+}
+
+.q4_content {
   display: table;
   width: 100%;
   table-layout: fixed;
@@ -9,34 +13,38 @@
   padding: 20px;
   box-sizing: border-box;
 }
+
 .q4_content > div{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-}
-.q4box {
-  padding: 20px 0;
 }
 
 .q4box-fixed {
   background-color:#b6d8eb;
   width: 100px;
 }
+
 .q4box-variable {
   background-color: #e0abd9;
   width:auto;
 }
+
 .q4box-fixed_left {
   background-color: #fdc8b8;
+  width: 100px;
 }
+
 .q4box-under_variable_left {
   background-color: #e5d32e;
   width:auto
 }
+
 .q4box-under_fixed {
   width: 500px;
   background-color: #8fdcad;
 }
+
 .q4box-under_variable {
   background-color: #ec8f9a;
   width: auto;

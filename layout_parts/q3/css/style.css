@@ -1,39 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.table,td,th{
+.q3_layout {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  }
+
+th,tr,td {
   border: 1px solid #dedede;
   padding: 10px;
 }
-.q3_layout{
-  table-layout: fixed;
-  width: 100%;
-}
-.table,th{
+
+th {
   background-color: #2244aa;
+  color: #dedede;
   font-size: 18px;
   line-height: 26px;
-  color: #dedede;
   }
-.table,td{
+
+tbody {
   font-size: 16px;
   line-height: 22px;
 }
-.table,tr:nth-child(odd){
+
+tbody:nth-child(odd) {
   background-color: #ecf1f2;
 }
-.table,td:first-child{
-  background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-  color: #dedede;
-}
-.table,td{
-  text-align: center;
-  font-size: 16px;
-  line-height: 22px;
-}
-.table,tr:last-child{
+
+tbody:last-child {
   border-top: dashed  #000  2px;
 }
 
