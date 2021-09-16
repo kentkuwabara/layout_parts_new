@@ -7,28 +7,34 @@
   text-align: center;
   }
 
-th,tr,td {
+.table_sell {
   border: 1px solid #dedede;
   padding: 10px;
 }
 
-th {
+.head{
   background-color: #2244aa;
   color: #dedede;
   font-size: 18px;
   line-height: 26px;
   }
 
-tbody {
+.q3_font {
   font-size: 16px;
   line-height: 22px;
 }
+.q3_font:first-child{
+  background-color: #2244aa;
+  color: #dedede;
+  font-size: 18px;
+  line-height: 26px;
+}
 
-tbody:nth-child(odd) {
+.q3_font:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-tbody:last-child {
+.q3_font:last-child {
   border-top: dashed  #000  2px;
 }
 
