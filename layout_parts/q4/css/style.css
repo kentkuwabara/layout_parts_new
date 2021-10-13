@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-.q4_content > div{
+.q4_content > div {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
