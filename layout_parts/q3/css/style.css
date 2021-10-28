@@ -23,11 +23,11 @@
   padding: 10px;
   }
 
-.layout tr:nth-child(even) {
+.layout tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.layout tbody:last-child {
+.layout tbody tr:last-child {
   border-top: dashed  #000  2px;
 }
 
