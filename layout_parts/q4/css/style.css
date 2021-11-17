@@ -2,26 +2,30 @@
 
 /* 回答はここに書いてね */
 .q4_content {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
   background-color: #eff3f4;
   padding: 20px;
-  box-sizing: border-box;
-}
-.content_width{
-  width: 100%;
 }
 
-.q4_content div {
+.content_width{
+  display: table;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.content_width:last-child{
+  margin: 20px 0 0 0;
+}
+.content {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  padding: 20px 0;
 }
 
 .content-fixed {
   background-color:#b6d8eb;
   width: 100px;
+  box-sizing: border-box;
 }
 
 .content-variable {
@@ -29,12 +33,13 @@
   width:auto;
 }
 
-.content-fixed_orange {
+.content-fixed-orange {
   background-color: #fdc8b8;
   width: 100px;
+  box-sizing: border-box;
 }
 
-.content-under_variable_left {
+.content-under_variable-yellow{
   background-color: #e5d32e;
   width:auto
 }
