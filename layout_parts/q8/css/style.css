@@ -4,22 +4,28 @@
 .q8_transition{
   position: relative;
   display: block;
-  width: 65%;
-  margin: 0 auto;
+  width:500px;
+  margin:0 auto;
+  overflow: hidden;
   }
-
-.q8_transition_img{
-
-}
 
 .q8_transition-text{
   position: absolute;
   font-size: 16px;
   line-height: 16px;
-  top: 55%;
-  margin: 5px;
+  top: 300px ;
+  margin: 20px;
   color: #ffffff;
   text-align: justify;
+}
+
+.q8_transition-text:hover{
+  top: 180px;
+}
+
+.q8_transition_img:hover{
+  transform: scale(1.5);
+  transition-duration: 0.5s;
 }
 
 
