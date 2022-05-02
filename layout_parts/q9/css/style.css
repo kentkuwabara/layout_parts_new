@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 
 .q9__answer {
-  display: inline-block;
+  display: block;
   background-color: #fff;
   width: 500px;
   padding: 20px ;
@@ -22,18 +22,18 @@
   border: 20px solid transparent;
   border-top-color: #fff;
   position : absolute;
-  bottom: -33px;
+  bottom: -38px;
   left: 30px;
 }
 
 .q9__answer::before {
   content: "";
-  width: 0px;
-  height: 0px;
+  width: 1px;
+  height: 1px;
   border: 20px solid transparent;
   border-top-color: #222;
   position : absolute;
-  bottom: -40px;
+  bottom: -45px;
   left: 30px;
 }
 /* 回答はここに書いてね */
