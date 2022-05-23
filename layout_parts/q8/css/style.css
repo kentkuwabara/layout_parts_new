@@ -13,20 +13,35 @@
   position: absolute;
   font-size: 16px;
   line-height: 16px;
-  top: 300px ;
-  margin: 20px;
+  top: 100%;
   color: #ffffff;
   text-align: justify;
+  width: 500px;
+  height: 333px;
+  transition: all .5s;
+}
+.q8_transition_text_option{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #FFF;
+  box-sizing: border-box;
+  word-break: break-all;
 }
 
-.q8_transition-text:hover{
-  top: 180px;
-}
 .q8_transition_img{
+  transition: all .5s;
 }
+
 .q8_transition_img:hover{
   transform: scale(1.5);
   transition-duration: 0.5s;
+}
+
+.q8_transition-text_option:hover{
+  transform: translateY(-100px);
 }
 
 
