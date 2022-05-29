@@ -22,7 +22,7 @@
 }
 .q8_transition_text_option{
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   padding: 20px;
@@ -40,8 +40,8 @@
   transition-duration: 0.5s;
 }
 
-.q8_transition-text_option:hover{
-  transform: translateY(-100px);
+.q8_transition_img:hover+.q8_transition_text_option{
+  transform: translateY(-200px)
 }
 
 
