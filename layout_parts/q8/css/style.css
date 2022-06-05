@@ -40,8 +40,8 @@
   transition-duration: 0.5s;
 }
 
-.q8_transition_img:hover+.q8_transition_text_option{
-  transform: translateY(-200px)
+.q8_transition_img:hover+.q8_transition-text{
+  transform:translateY(-150px)
 }
 
 
