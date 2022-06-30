@@ -12,10 +12,11 @@
   float: left;
   font-size: 16px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
-.content:last-child{
-  margin-left: 50px;
+.content:first-child{
+  margin-left: 0px;
 }
 
 .content_table{
@@ -39,11 +40,13 @@
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
+  margin-left: 50px;
+  padding: 50px;
   box-sizing: border-box;
 }
 
-.content_inline-block:last-child{
-  margin-left: 45px;
+.content_inline-block:first-child{
+  margin-left:0px;
 }
 
 .content_flex{
@@ -72,7 +75,8 @@
   font-size: 16px;
   padding-left: 350px;
   box-sizing: border-box;
-  margin-top: -115px;
+  margin-left: -300px;
+  vertical-align: top;
   }
 
 .q7-5_inline-block_parent{

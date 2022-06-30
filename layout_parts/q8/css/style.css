@@ -40,7 +40,6 @@
 
 .q8_transition:hover .q8_transition_img{
   transform: scale(1.5);
-  transition: all .5s;
 }
 
 .q8_transition:hover .q8_transition-text{

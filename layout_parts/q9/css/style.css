@@ -15,25 +15,23 @@
   line-height: 16px;
 }
 
-.q9__answer::after{
+.q9__answer::after,.q9__answer::before{
   content: "";
+  left: 30px;
+  position : absolute;
+  border: 20px solid transparent;
+}
+.q9__answer::after{
   width: 0px;
   height: 0px;
-  border: 20px solid transparent;
   border-top-color: #fff;
-  position : absolute;
   bottom: -38px;
-  left: 30px;
 }
 
 .q9__answer::before {
-  content: "";
   width: 1px;
   height: 1px;
-  border: 20px solid transparent;
   border-top-color: #222;
-  position : absolute;
   bottom: -45px;
-  left: 30px;
 }
 /* 回答はここに書いてね */
